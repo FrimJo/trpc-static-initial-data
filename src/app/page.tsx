@@ -1,8 +1,7 @@
 import TodoList from './_components/todo-list'
 import { serverClient } from './_trpc/server-client'
 
-export const revalidate = 0
-export const dynamicParams = false
+// export const revalidate = 60
 
 export default async function Home() {
   const todos = await serverClient.getTodos()

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "trpc-static-initial-data": {
+      "appLocation": ".",
+      "outputLocation": ".next/standalone",
+      "appBuildCommand": "pnpm run build",
+      "run": "pnpm run dev",
+      "appDevserverUrl": "http://localhost:3000",
+      "appName": "trpc-static-initial-data",
+      "resourceGroup": "trpc-static-initial-data"
+    }
+  }
+}
