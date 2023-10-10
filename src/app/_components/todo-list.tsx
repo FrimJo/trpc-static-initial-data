@@ -8,5 +8,5 @@ export default function TodoList({ initialTodos }: { initialTodos: Awaited<Retur
     initialData: initialTodos,
     refetchOnMount: false,
   })
-  return <div>{JSON.stringify(getTodos.data)}</div>
+  return <><div>{JSON.stringify(getTodos.data)}</div><div>{JSON.stringify(initialTodos)}</div></>
 }
